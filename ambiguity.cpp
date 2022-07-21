@@ -22,6 +22,6 @@ class vehicle : public ship, public car{
 int main(){
 
     vehicle V;
-    V.car::mode();
+    V.car::mode();// incase of two functions with the same name
     return 0;
 }
